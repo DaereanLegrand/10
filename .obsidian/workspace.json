@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PFC3/Tesis.md",
+                "file": "PFC3/Résumé of SoTA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tesis"
+              "title": "Résumé of SoTA"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c0c7b9de07c6daae",
@@ -187,10 +188,11 @@
   },
   "active": "07c550332c8a34a0",
   "lastOpenFiles": [
+    "PFC3/Tesis.md",
+    "PFC3/Résumé of SoTA.md",
     "Formación de Empresas de Base Tecnológica I/01 - Startups.md",
     "Tópicos Avanzados en Ingeniería de Software/02 - Architectural Design.md",
     "Tópicos Avanzados en Ingeniería de Software/01- System Modeling.md",
-    "PFC3/Tesis.md",
     "Sistemas de Información/01 - Software process.md",
     "PFC3",
     "Ética Profesional/Untitled.md",
