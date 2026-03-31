@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "18bb1be98e34d3e5",
+    "type": "split",
+    "children": [
+      {
+        "id": "51bc94155b914bc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07c550332c8a34a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PFC3/Tesis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tesis"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35b9ab296b7ff82a",
+    "type": "split",
+    "children": [
+      {
+        "id": "09d6abac379b49c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "529e084d967fcacc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "25dc8b9132cca41c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8e9a654e22c65f74",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c0c7b9de07c6daae",
+    "type": "split",
+    "children": [
+      {
+        "id": "3388a60c8c058791",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80759b9c0f32ae76",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TODO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for TODO"
+            }
+          },
+          {
+            "id": "879784b31a8dfeea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TODO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from TODO"
+            }
+          },
+          {
+            "id": "cec2b20e30580ae5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "db30267773ec0119",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fad49c030d7746ed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TODO.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of TODO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "07c550332c8a34a0",
+  "lastOpenFiles": [
+    "Formación de Empresas de Base Tecnológica I/01 - Startups.md",
+    "Tópicos Avanzados en Ingeniería de Software/02 - Architectural Design.md",
+    "Tópicos Avanzados en Ingeniería de Software/01- System Modeling.md",
+    "PFC3/Tesis.md",
+    "Sistemas de Información/01 - Software process.md",
+    "PFC3",
+    "Ética Profesional/Untitled.md",
+    "Cloud Computing/Cloud Services.md",
+    "Excalidraw/Drawing 2026-03-18 20.15.29.excalidraw.md",
+    "Excalidraw",
+    "Formación de Empresas de Base Tecnológica I/00 - Introducción.md",
+    "TODO.md",
+    "Cloud Computing",
+    "Xtra",
+    "Xtra/Pasted image 20260311164840.png",
+    "Pasted image 20260311164803.png",
+    "Pasted image 20260311164744.png",
+    "Pasted image 20260311164648.png",
+    "Pasted image 20260311164636.png",
+    "Pasted image 20260311164607.png",
+    "Pasted image 20260311164356.png",
+    "Tópicos Avanzados en Ingeniería de Software/Introducción.md",
+    "Tópicos Avanzados en Ingeniería de Software",
+    "Sistemas de Información/Introducción.md",
+    "Ética Profesional",
+    "Sistemas de Información",
+    "Formación de Empresas de Base Tecnológica I/Untitled",
+    "Formación de Empresas de Base Tecnológica I",
+    "Welcome.md"
+  ]
+}
