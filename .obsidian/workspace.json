@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "51bc94155b914bc1",
+        "id": "3a6b1b8f2a1f6082",
         "type": "tabs",
         "children": [
           {
-            "id": "07c550332c8a34a0",
+            "id": "531d9d84f2cdcdcb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "PFC3/Tesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TODO"
+              "title": "Backlinks for Tesis"
             }
           },
           {
@@ -164,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Outline of TODO"
             }
+          },
+          {
+            "id": "e7c5aecb3ccf7230",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,15 +192,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07c550332c8a34a0",
+  "active": "531d9d84f2cdcdcb",
   "lastOpenFiles": [
+    "Untitled.base",
+    "PFC3/Tesis.md",
     "Formación de Empresas de Base Tecnológica I/01 - Startups.md",
     "Tópicos Avanzados en Ingeniería de Software/02 - Architectural Design.md",
     "Tópicos Avanzados en Ingeniería de Software/01- System Modeling.md",
-    "PFC3/Tesis.md",
     "Sistemas de Información/01 - Software process.md",
     "PFC3",
     "Ética Profesional/Untitled.md",
