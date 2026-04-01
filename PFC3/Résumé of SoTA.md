@@ -47,3 +47,37 @@ En el caso de LSTM, en el estado del arte se uso el siguiente esquema para la de
 También se uso Transformers puro y el método con mayor resultados obtenidos. Siendo uno de los primero capaces de obtener representaciones usando información contextual.
 	*Yang, D., Huang, S., Liu, Y., & Zhang, L. (2022). Contextual and cross-modal interaction for multi-modal speech emotion recognition. _IEEE Signal Processing Letters_, _29_, 2093-2097.*
 
+![[Pasted image 20260401012229.png]]
+Mamba 3 fue lanzado hace 2 semanas, reemplazando la red convolucional por un RoPE que permitiría cierta no linearidad, en capas de activación, normalización y multiplicación. Demostrando una mayor potencia en el apartado de recurrencia, también una mayor eficiencia en inferencia lo que permitiría su aplicación en sistemas embebidos.
+	*Lahoti, Aakash, et al. "Mamba-3: Improved sequence modeling using state space principles." _arXiv preprint arXiv:2603.15569_ (2026).*
+
+Para la extracción de características de texto se están usando en el estado del arte, nuevas ideas tales como el uso modelos generales o los de tipo Omni. Como gemini 3 y GPT omini. Emotion-Llamav2 llegó hasta un 55%, demostrando la poca eficacia de dichos modelos en su estado puro, sin embargo como se verá al final en el estado del arte, sirven de mucho en la extracción. Esta basado en MiniGPT-v2. 
+	*Peng, X., Chen, J., Cheng, Z., Peng, B., Wu, F., Dong, Y., ... & Cheng, Z. Q. (2026). Emotion-LLaMAv2 and MMEVerse: A New Framework and Benchmark for Multimodal Emotion Understanding. _arXiv preprint arXiv:2601.16449_.*
+
+Con respecto a Audio se paso de WavLM a modelos fundacionales, y también el uso de modelos omni como los mencionados en la extracción de características del texto. También se usó SALMONN siendo una LLM basada en audio, obteniendo un resultado de hasta 45.62% de acc, teniendo en cuenta de que solo procesa audio, es para tener en cuenta.
+	*Yang, Chih-Kai, Neo S. Ho, and Hung-yi Lee. "Towards holistic evaluation of large audio-language models: A comprehensive survey." _Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing_. 2025.*
+	*Shou, Yuntao, et al. "Multimodal large language models meet multimodal emotion recognition and reasoning: A survey." _arXiv preprint arXiv:2509.24322_ (2025).*
+
+Y para la extracción de características en el video Divided Space-Time Mamba, pero no tuve acceso para ver las 2 investigaciones al respecto. Hay una tercera, que usa DST para un modelo con self-supervision, no es tanto de detección de emociones en conversaciones, pero se debe de tener en cuenta. Por lo demás, ViT es una opción viable pero no existen records de su uso en el tema, mucho más que eso TinyViM parece ser una buena opción por el contexto. ViViT también.
+![[Pasted image 20260401021405.png]]
+	*Ben Salah, M. K., Jouvet, P., & Noumeir, R. (2025). PICU Face and Thoracoabdominal Detection Using Self-Supervised Divided Space–Time Mamba. _Life_, _15_(11), 1706.*
+	*Ma, Xiaowen, Zhenliang Ni, and Xinghao Chen. "Tinyvim: Frequency decoupling for tiny hybrid vision mamba." _Proceedings of the IEEE/CVF International Conference on Computer Vision_. 2025.*
+	*Arnab, Anurag, et al. "Vivit: A video vision transformer." _Proceedings of the IEEE/CVF international conference on computer vision_. 2021.*
+
+El estado del arte actual usa la siguiente arquitectura:
+![[Pasted image 20260401022240.png]]
+En el apartado de la fusión es donde se diferencia de los demás por ser completamente Transformers, es decir que usa una implementación única por cada fuente. Usa también un model gráfico y un Relational Graph Convolutional Network para finalmente pasar por un modelo de Transformers para grafos. Sería interesante combinar el mecanismo de atención puro y los grafos con con el contexto largo de Mamba, el problema sería la reimplementación de cada una de las extracciones de cada fuente. En el caso de las características faciales y corpóreas la situación es peor.
+
+Este modelo alcanza la increíble acc de 65.32%
+	*Jin, H., Yang, T., Yan, L., Wang, C., & Song, X. (2025). Multimodal Emotion Recognition in Conversations Using Transformer and Graph Neural Networks. _Applied Sciences_, _15_(22)*
+
+El otro approach es el uso de MoE, Mixture of Experts. Mixture of Speech-Text Experts for Recognition of Emotions (MiSTER-E), especializandose en audio y texto. Llegando a un 69.5%, usando SALMONN y LLaMa. Una idea sería hacer MoE con Visión y características faciales, pero pierde sentido, siento la complejidad computational se hace más grande.
+	*Dutta, Soumya, Smruthi Balaji, and Sriram Ganapathy. "A Mixture-of-Experts model for multimodal emotion recognition in conversations." _Computer Speech & Language_ 100 (2026): 101965.*
+
+SALM llega a una acc de 67.13%. Usando Global Liquid Neural Network en combinación con Mamba. El procedimiento es mucho más complejo. Analizar en más detalle.
+![[Pasted image 20260401023927.png]]
+	*Chen, G.; Liao, Y.; Zhang, D.; Yang, W.; Mai, Z.; Xu, C. Multimodal Emotion Recognition via the Fusion of Mamba and Liquid Neural Networks with Cross-Modal Alignment. _Electronics_ **2025**, _14_, 3638.*
+
+Con respecto al dataset, se puede incursionar el task más complejo que hace diferencia por cada uno de los personajes.
+No me parece atractiva la idea, pues desde el baseline propuesto en el paper la acc parece inflada en comparación a MELD. Además no se evalúa la conversación en si, sino a el diálogo de cada personaje.
+	*Li, Deng, et al. "Deemo: De-identity multimodal emotion recognition and reasoning." _Proceedings of the 33rd ACM International Conference on Multimedia_. 2025.*

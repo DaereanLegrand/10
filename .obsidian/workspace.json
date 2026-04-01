@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PFC3/Résumé of SoTA.md",
+                "file": "PFC3/Tesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Résumé of SoTA"
+              "title": "Backlinks for Tesis"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PFC3/Résumé of SoTA.md",
+                "file": "TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Résumé of SoTA"
+              "title": "Outline of TODO"
             }
           },
           {
@@ -196,9 +196,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "531d9d84f2cdcdcb",
+  "active": "529e084d967fcacc",
   "lastOpenFiles": [
+    "Xtra/Pasted image 20260401023927.png",
+    "Xtra/Pasted image 20260401022240.png",
+    "Xtra/Pasted image 20260401021405.png",
+    "PFC3/PAPERS SIN ACCESO.md",
     "PFC3/Résumé of SoTA.md",
+    "Xtra/Pasted image 20260401012229.png",
     "Xtra/Pasted image 20260331163048.png",
     "Xtra/Pasted image 20260331162756.png",
     "Xtra/Pasted image 20260331162557.png",
@@ -206,11 +211,6 @@
     "Xtra/Pasted image 20260331161624.png",
     "Xtra/Pasted image 20260331160904.png",
     "Xtra/Pasted image 20260331154718.png",
-    "PFC3/Résumé of SoTA.tex",
-    "PFC3/Résumé of SoTA.pdf",
-    "Pasted image 20260331163048.png",
-    "Pasted image 20260331162756.png",
-    "Pasted image 20260331162557.png",
     "PFC3/Tesis.md",
     "conflict-files-obsidian-git.md",
     "Untitled.base",
@@ -232,6 +232,8 @@
     "Sistemas de Información/Introducción.md",
     "Ética Profesional",
     "Sistemas de Información",
+    "Formación de Empresas de Base Tecnológica I/Untitled",
+    "Formación de Empresas de Base Tecnológica I",
     "Welcome.md"
   ]
 }
