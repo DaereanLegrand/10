@@ -44,3 +44,5 @@ Subsystems must share data.
 - Share data is held in central database.
 - Each subsystem hold its own database and share explicitly.
 # Client server architecture
+Read from the book.
+# 

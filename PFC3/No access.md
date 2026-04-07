@@ -1,0 +1,5 @@
+https://ieeexplore.ieee.org/abstract/document/11304551
+https://ieeexplore.ieee.org/abstract/document/10936448/
+[https://www.researchgate.net/publication/398932907_Mamba-based_dynamic_fusion_of_cross-modal_attention_optimization_models_for_ERC_Mamba-based_dynamic_fusion_of_cross-modal_attentionJ_Wu_et_al](https://www.researchgate.net/publication/398932907_Mamba-based_dynamic_fusion_of_cross-modal_attention_optimization_models_for_ERC_Mamba-based_dynamic_fusion_of_cross-modal_attentionJ_Wu_et_al)
+
+

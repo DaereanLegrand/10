@@ -11,14 +11,10 @@
             "id": "531d9d84f2cdcdcb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PFC3/Résumé of SoTA.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Résumé of SoTA"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -94,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PFC3/Tesis.md",
+                "file": "PFC3/Résumé of SoTA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Tesis"
+              "title": "Backlinks for Résumé of SoTA"
             }
           },
           {
@@ -156,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md",
+                "file": "PFC3/Résumé of SoTA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of Résumé of SoTA"
             }
           },
           {
@@ -196,13 +192,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "529e084d967fcacc",
+  "active": "531d9d84f2cdcdcb",
   "lastOpenFiles": [
+    "PFC3/No access.md",
+    "PFC3/Résumé of SoTA.md",
+    "PFC3/Useful links.md",
+    "Formación de Empresas de Base Tecnológica I/01 - Startups.md",
+    "Formación de Empresas de Base Tecnológica I/00 - Introducción.md",
+    "Sistemas de Información/CH - 1 Book.md",
+    "Sistemas de Información/01 - Software process.md",
+    "Tópicos Avanzados en Ingeniería de Software/02 - Architectural Design.md",
     "Xtra/Pasted image 20260401023927.png",
     "Xtra/Pasted image 20260401022240.png",
     "Xtra/Pasted image 20260401021405.png",
-    "PFC3/PAPERS SIN ACCESO.md",
-    "PFC3/Résumé of SoTA.md",
     "Xtra/Pasted image 20260401012229.png",
     "Xtra/Pasted image 20260331163048.png",
     "Xtra/Pasted image 20260331162756.png",
@@ -210,20 +212,17 @@
     "Xtra/Pasted image 20260331161715.png",
     "Xtra/Pasted image 20260331161624.png",
     "Xtra/Pasted image 20260331160904.png",
-    "Xtra/Pasted image 20260331154718.png",
+    "PFC3/Résumé of SoTA.tex",
+    "PFC3/Résumé of SoTA.pdf",
     "PFC3/Tesis.md",
     "conflict-files-obsidian-git.md",
     "Untitled.base",
-    "Formación de Empresas de Base Tecnológica I/01 - Startups.md",
-    "Tópicos Avanzados en Ingeniería de Software/02 - Architectural Design.md",
     "Tópicos Avanzados en Ingeniería de Software/01- System Modeling.md",
-    "Sistemas de Información/01 - Software process.md",
     "PFC3",
     "Ética Profesional/Untitled.md",
     "Cloud Computing/Cloud Services.md",
     "Excalidraw/Drawing 2026-03-18 20.15.29.excalidraw.md",
     "Excalidraw",
-    "Formación de Empresas de Base Tecnológica I/00 - Introducción.md",
     "TODO.md",
     "Cloud Computing",
     "Xtra",
@@ -232,8 +231,6 @@
     "Sistemas de Información/Introducción.md",
     "Ética Profesional",
     "Sistemas de Información",
-    "Formación de Empresas de Base Tecnológica I/Untitled",
-    "Formación de Empresas de Base Tecnológica I",
     "Welcome.md"
   ]
 }
