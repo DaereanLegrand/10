@@ -45,4 +45,5 @@ Subsystems must share data.
 - Each subsystem hold its own database and share explicitly.
 # Client server architecture
 Read from the book.
-# 
+# Application architectures
+Creation of checklist, starting point for architectural design.

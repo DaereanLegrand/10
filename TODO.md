@@ -12,3 +12,9 @@
 - 1000 words per day
 - Electronic based projects
 - Pokemon Go like for biking
+
+# IS
+Si es muy grande que procesos
+Que problema resuelve.
+Que procesos va a atacar.
+Diagramas de caso de uso.
