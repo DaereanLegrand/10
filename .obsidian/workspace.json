@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tópicos Avanzados en Ingeniería de Software/Parcial.md",
+                "file": "TODO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Parcial"
+              "title": "TODO"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c0c7b9de07c6daae",
@@ -199,21 +198,21 @@
   },
   "active": "149a9a689b76b939",
   "lastOpenFiles": [
+    "Xtra/Pasted image 20260419155913.png",
     "Tópicos Avanzados en Ingeniería de Software/Parcial.md",
-    "Pasted image 20260422184107.png",
-    "Pasted image 20260422182238.png",
-    "Pasted image 20260422182113.png",
-    "Pasted image 20260422181234.png",
-    "Pasted image 20260422180122.png",
-    "Pasted image 20260422180113.png",
-    "Pasted image 20260422162543.png",
-    "Pasted image 20260422162230.png",
+    "Xtra/Pasted image 20260422184107.png",
+    "Xtra/Pasted image 20260422182238.png",
+    "Xtra/Pasted image 20260422182113.png",
+    "Xtra/Pasted image 20260422181234.png",
+    "Xtra/Pasted image 20260422180122.png",
+    "Xtra/Pasted image 20260422180113.png",
+    "Xtra/Pasted image 20260422162543.png",
+    "Xtra/Pasted image 20260422162230.png",
     "PFC3/No access.md",
     "PFC3/Proposition.md",
     "TODO.md",
     "PFC3/Untitled",
-    "Pasted image 20260419155928.png",
-    "Pasted image 20260419155913.png",
+    "Xtra/Pasted image 20260419155928.png",
     "Tópicos Avanzados en Ingeniería de Software/03 - Itil.md",
     "Tópicos Avanzados en Ingeniería de Software/02 - Architectural Design.md",
     "PFC3/Résumé of SoTA.md",
